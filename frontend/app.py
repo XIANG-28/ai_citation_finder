@@ -42,7 +42,7 @@ if st.button("🔍 Find Evidence"):
 
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/search",
+                "https://ai-citation-finder.onrender.com/search",
                 params={"query": query},
                 timeout=60
             )
